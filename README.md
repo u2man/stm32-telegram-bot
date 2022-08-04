@@ -29,3 +29,4 @@ void Telegram_Init(void){
 	Device.ThermostatsVal=25;
 
 }
+ 
