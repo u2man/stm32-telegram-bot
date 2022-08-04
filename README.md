@@ -7,6 +7,8 @@ STM32 running FreeRTOS, TouchGFX, LWIP and MbedTLS.
 Demo video https://www.youtube.com/watch?v=UC3c98ec5t8
 
 Please change Telegram token and chat ID with yourown
+
+
 void Telegram_Init(void){
 	//Set Telegram bot Token
 	sprintf((char*)Telegram.Token,"CHANGE WITH YOUT TOKEN");
