@@ -1,0 +1,27 @@
+
+{
+  "Application": {
+    "Name": "STM32_TelegramBot_Ethernet",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "Family": "STM32F7",
+    "SubFamily": "STM32F7x6",
+    "Platform": "m7",
+    "ProjectFile": "../STM32_TelegramBot_Ethernet.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": [
+    ]
+  },
+  "Version": "4.20.0"
+}

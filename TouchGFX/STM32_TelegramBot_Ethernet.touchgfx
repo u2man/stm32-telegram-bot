@@ -1,0 +1,874 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Name": "Chatscreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "telegrambg.png"
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 31,
+            "Color": {
+              "Red": 65,
+              "Green": 159,
+              "Blue": 217
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 9,
+            "Y": 6,
+            "Width": 150,
+            "Height": 18,
+            "TextId": "__SingleUse_NHK2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "EditTextflexButton",
+            "X": 3,
+            "Y": 212,
+            "Width": 273,
+            "Height": 25,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "X": 6,
+                "Y": 3,
+                "TextId": "__SingleUse_2TP6",
+                "TextRotation": "0",
+                "Wildcard1": {
+                  "TextId": "__SingleUse_XPUN",
+                  "UseBuffer": true,
+                  "BufferSize": 50
+                },
+                "ColorReleased": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 273,
+                "Height": 25,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                }
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "SendMsgflexButton",
+            "X": 280,
+            "Y": 210,
+            "Width": 50,
+            "Height": 28,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 4,
+                "TextId": "__SingleUse_XOOW",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 139,
+                  "Green": 139,
+                  "Blue": 139
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 50,
+                "Height": 28,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1",
+            "Y": 241,
+            "Width": 480,
+            "Height": 31,
+            "Color": {
+              "Red": 65,
+              "Green": 159,
+              "Blue": 217
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "StatustextArea1",
+            "X": 3,
+            "Y": 247,
+            "Width": 51,
+            "Height": 18,
+            "TextId": "__SingleUse_WCXT",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_SMZG",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "AutomationflexButton",
+            "X": 339,
+            "Y": 210,
+            "Width": 135,
+            "Height": 28,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 4,
+                "TextId": "__SingleUse_UQ7F",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 139,
+                  "Green": 139,
+                  "Blue": 139
+                }
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 135,
+                "Height": 28,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 386,
+            "Y": 7,
+            "Width": 81,
+            "Height": 17,
+            "TextId": "__SingleUse_Z1I7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 207,
+              "Green": 202,
+              "Blue": 202
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "TelegramStatustextArea",
+            "X": 311,
+            "Y": 247,
+            "Width": 163,
+            "Height": 18,
+            "TextId": "__SingleUse_RBY7",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_QETQ",
+              "UseBuffer": true,
+              "BufferSize": 100
+            }
+          },
+          {
+            "Type": "ScrollWheel",
+            "Name": "MessagescrollList",
+            "X": 4,
+            "Y": 34,
+            "Width": 463,
+            "Height": 176,
+            "SelectedItemOffset": 150,
+            "UseSelectedStyle": true,
+            "SelectedItemTemplateName": "SelectedMessageContainer",
+            "ItemTemplateName": "MessageContainer",
+            "NumberofItems": 10,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0
+          },
+          {
+            "Type": "ModalWindow",
+            "Name": "KeyboardmodalWindow",
+            "Width": 480,
+            "Height": 272,
+            "Visible": false,
+            "FileName": "BG480x272.png",
+            "ModalWidth": 480,
+            "ModalHeight": 272,
+            "Alpha": 150,
+            "Components": [
+              {
+                "Type": "Container",
+                "Name": "Keyboardcontainer",
+                "X": 80,
+                "Y": 16,
+                "Width": 320,
+                "Height": 240,
+                "Components": []
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "AutomationflexButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "AutomationScreen"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "SendMsgflexButton"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "SendMessage_Execute"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "EditTextflexButton"
+            },
+            "Action": {
+              "Type": "ActionShow",
+              "ActionComponent": "KeyboardmodalWindow"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "AutomationScreen",
+        "CanvasBufferSize": 7200,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "box1",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 144,
+              "Green": 141,
+              "Blue": 194
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2",
+            "Width": 480,
+            "Height": 31,
+            "Color": {
+              "Red": 65,
+              "Green": 159,
+              "Blue": 217
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "box2_1",
+            "Y": 241,
+            "Width": 480,
+            "Height": 31,
+            "Color": {
+              "Red": 65,
+              "Green": 159,
+              "Blue": 217
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 9,
+            "Y": 6,
+            "Width": 123,
+            "Height": 18,
+            "TextId": "__SingleUse_Q3ON",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "HomeButton",
+            "Y": 207,
+            "Width": 32,
+            "Height": 34,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "IconButtonStyle",
+                "Y": 1,
+                "IconReleased": "Blue_Icons_Home_32Click.png",
+                "IconPressed": "__designer\\Blue_Icons_Home_32.png"
+              },
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "Width": 32,
+                "Height": 34,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Red": 65,
+                  "Green": 159,
+                  "Blue": 217
+                },
+                "ColorPressed": {
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Circle",
+            "Name": "Lamp1",
+            "X": 9,
+            "Y": 37,
+            "Width": 40,
+            "Height": 40,
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Lamp2",
+            "X": 9,
+            "Y": 86,
+            "Width": 40,
+            "Height": 40,
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "Circle",
+            "Name": "Lamp3",
+            "X": 9,
+            "Y": 136,
+            "Width": 40,
+            "Height": 40,
+            "CenterX": 20.0,
+            "CenterY": 20.0,
+            "Radius": 20.0,
+            "EndAngle": 360.0,
+            "CapPrecision": "Butt"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Switch1",
+            "X": 62,
+            "Y": 37,
+            "Width": 96,
+            "Height": 38,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_RE_small_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_RE_small_button_OFF.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Switch2",
+            "X": 62,
+            "Y": 88,
+            "Width": 96,
+            "Height": 38,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_RE_small_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_RE_small_button_OFF.png"
+          },
+          {
+            "Type": "ToggleButton",
+            "Name": "Switch3",
+            "X": 62,
+            "Y": 138,
+            "Width": 96,
+            "Height": 38,
+            "Pressed": "__designer\\Blue_Togglebars_Toggle_RE_small_button_ON.png",
+            "Released": "__designer\\Blue_Togglebars_Toggle_RE_small_button_OFF.png"
+          },
+          {
+            "Type": "Slider",
+            "Name": "slider1",
+            "X": 223,
+            "Y": 37,
+            "Width": 34,
+            "Height": 179,
+            "BackgroundUnselected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_back.png",
+            "BackgroundSelected": "__designer\\Blue_Slider_Vertical_Small_Slider3_Vertical_Round_fill.png",
+            "Indicator": "__designer\\Blue_Slider_Vertical_Small_Indicators_Slider3_Vertical_Round_nob.png",
+            "BackgroundX": 7,
+            "BackgroundY": 3,
+            "IndicatorMax": 125,
+            "ValueMax": 100,
+            "InitValue": 30,
+            "Style": "Style1"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 274,
+            "Y": 70,
+            "Width": 130,
+            "Height": 18,
+            "TextId": "__SingleUse_G87P",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ThermostateValueText",
+            "X": 303,
+            "Y": 92,
+            "Width": 80,
+            "Height": 84,
+            "TextId": "__SingleUse_8X1J",
+            "TextRotation": "0",
+            "AutoSize": true,
+            "Wildcard1": {
+              "TextId": "__SingleUse_ZFBF",
+              "UseBuffer": true,
+              "BufferSize": 10
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1_1",
+            "X": 393,
+            "Y": 217,
+            "Width": 81,
+            "Height": 17,
+            "TextId": "__SingleUse_CLJE",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Switch1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Switch1_Execute"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Switch2"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Switch2_Execute"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Switch3"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Switch3_Execute"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "Trigger": {
+              "Type": "TriggerSliderValueChanged",
+              "TriggerComponent": "slider1"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Thermostat_Change"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "HomeButton"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Chatscreen"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "SplashScreen",
+        "Components": [
+          {
+            "Type": "Image",
+            "Name": "image2",
+            "Width": 480,
+            "Height": 272,
+            "RelativeFilename": "telegrambg.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "image1",
+            "X": 177,
+            "Y": 9,
+            "Width": 126,
+            "Height": 127,
+            "RelativeFilename": "telegram.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1_1",
+            "X": 200,
+            "Y": 230,
+            "Width": 81,
+            "Height": 17,
+            "TextId": "__SingleUse_D1KX",
+            "TextRotation": "0",
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 73,
+            "Y": 151,
+            "Width": 334,
+            "Height": 49,
+            "TextId": "__SingleUse_2N7P",
+            "TextRotation": "0",
+            "AutoSize": true
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionDelay",
+              "Duration": 3000
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "Interaction1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "South",
+              "ActionComponent": "Chatscreen"
+            }
+          }
+        ]
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Name": "MessageContainer",
+        "Width": 463,
+        "Height": 30,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Receivebox",
+            "Width": 147,
+            "Height": 24,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "Sendbox",
+            "X": 316,
+            "Width": 147,
+            "Height": 24,
+            "Color": {
+              "Red": 239,
+              "Green": 253,
+              "Blue": 222
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ReceivetextArea",
+            "X": 8,
+            "Y": 3,
+            "Width": 117,
+            "Height": 18,
+            "TextId": "__SingleUse_LU4O",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_UGJA",
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SendtextArea",
+            "X": 324,
+            "Y": 3,
+            "Width": 117,
+            "Height": 18,
+            "TextId": "__SingleUse_8XRL",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_A45O",
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          }
+        ],
+        "Interactions": []
+      },
+      {
+        "Name": "SelectedMessageContainer",
+        "Width": 463,
+        "Height": 30,
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "Receivebox",
+            "Width": 147,
+            "Height": 24,
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            }
+          },
+          {
+            "Type": "Box",
+            "Name": "Sendbox",
+            "X": 316,
+            "Width": 147,
+            "Height": 24,
+            "Color": {
+              "Red": 239,
+              "Green": 253,
+              "Blue": 222
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "ReceivetextArea",
+            "X": 8,
+            "Y": 3,
+            "Width": 117,
+            "Height": 18,
+            "TextId": "__SingleUse_9QTZ",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_IIWH",
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "SendtextArea",
+            "X": 324,
+            "Y": 3,
+            "Width": 117,
+            "Height": 18,
+            "TextId": "__SingleUse_J9IK",
+            "TextRotation": "0",
+            "Wildcard1": {
+              "TextId": "__SingleUse_GEJ2",
+              "UseBuffer": true,
+              "BufferSize": 50
+            }
+          }
+        ],
+        "Interactions": []
+      }
+    ],
+    "Name": "MyApplication",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "SplashScreen",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32F7",
+    "Platform": "m7",
+    "ProjectFile": "../STM32_TelegramBot_Ethernet.ioc",
+    "OptionalComponentsRoot": "../Middlewares/ST/touchgfx_components",
+    "OptionalComponents": []
+  },
+  "Version": "4.20.0"
+}
