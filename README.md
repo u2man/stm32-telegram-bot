@@ -6,29 +6,8 @@ STM32 running FreeRTOS, TouchGFX, LWIP and MbedTLS.
 
 Demo video https://www.youtube.com/watch?v=UC3c98ec5t8
 
-Please change Telegram token and chat ID with yourown
-
-
-void Telegram_Init(void){
-	//Set Telegram bot Token
-	sprintf((char*)Telegram.Token,"CHANGE WITH YOUT TOKEN");
-	//Set Chat ID
-	Telegram.ChatID = 0;//changewithyourchatID;
-	Telegram.ReceiveFlag=0;
-	Telegram.SendFlag=0;
-	Telegram.ServerStatus=0;
-	Telegram.UpdateID=0;
-
-	memset(Telegram.ReceiveMsg,0,sizeof(Telegram.ReceiveMsg));
-	memset(Telegram.SendMsg,0,sizeof(Telegram.SendMsg));
-
-	sprintf((char*)Description.StatsString[0].Text,"OFF");
-	sprintf((char*)Description.StatsString[1].Text,"ON");
-
-	Device.Lamp[0]=0;
-	Device.Lamp[2]=1;
-	Device.Lamp[0]=0;
-	Device.ThermostatsVal=25;
-
-}
- 
+Please change Telegram token and chat ID with yourown fromm Telegram_Init function:
+sprintf((char*)Telegram.Token,"CHANGE WITH YOUT TOKEN");
+Telegram.ChatID = 0;//changewithyourchatID;
+Executeable in hex format (STM32_TelegramBot_Ethernet.hex), with no Token and Chat ID.
+When download, please enable external loader N25Q128A_STM32F746G-DISCO, from your STM32CubeProgrammer or STM32CubeIDE
